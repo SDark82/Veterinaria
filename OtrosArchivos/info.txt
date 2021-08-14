@@ -1,0 +1,1 @@
+Carpeta para almacenar otros archivos relacionados al proyecto, como diagramas, archivo de EA, etc.
