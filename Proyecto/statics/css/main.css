@@ -68,7 +68,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: 'Albori';
-    background-image: url(statics/img/Curiosidades/SVG/Leones.svg);
+    background-image: url(../img/Curiosidades/SVG/Leones.svg);
     background-size: cover;
     background-position: right;
     background-repeat: repeat;
@@ -82,22 +82,22 @@ body{
 
 @keyframes animation {
     0%{
-        background-image: url("statics/img/Curiosidades/SVG/Leones.svg");
+        background-image: url("../img/Curiosidades/SVG/Leones.svg");
     }
     20%{
-        background-image: url("statics/img/Curiosidades/SVG/Jirafas.svg"); 
+        background-image: url("../img/Curiosidades/SVG/Jirafas.svg"); 
     }
     40%{
-        background-image: url("statics/img/Curiosidades/SVG/Elefantes.svg"); 
+        background-image: url("../img/Curiosidades/SVG/Elefantes.svg"); 
     }
     60%{
-        background-image: url("statics/img/Curiosidades/SVG/Perros.svg"); 
+        background-image: url("../img/Curiosidades/SVG/Perros.svg"); 
     }
     80%{
-        background-image: url("statics/img/Curiosidades/SVG/Gatos.svg"); 
+        background-image: url("../img/Curiosidades/SVG/Gatos.svg"); 
     }
     100%{
-        background-image: url("statics/img/Curiosidades/SVG/Leones.svg"); 
+        background-image: url("../img/Curiosidades/SVG/Leones.svg"); 
     }
 }
 
