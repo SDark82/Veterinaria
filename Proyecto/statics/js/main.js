@@ -18,7 +18,7 @@ const user = document.getElementById("user");
 const photo = document.getElementById("photo-user");
 user.addEventListener("keyup", () => {
     if (user.value == "josea123") {
-        photo.setAttribute("src","statics/img/FotoCarnetFondo.png")
+        photo.setAttribute("src","../imgs/FotoCarnetFondo.png")
         photo.style.animation = "fadeIn 1s";
         photo.style.opacity = 1;
     } else {
@@ -27,3 +27,6 @@ user.addEventListener("keyup", () => {
     }
 })
 
+
+const iconos = document.getElementsByClassName("icono");
+console.log("hola");
