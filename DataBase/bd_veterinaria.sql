@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-08-2021 a las 06:37:16
+-- Tiempo de generación: 17-08-2021 a las 07:13:49
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -64,7 +64,8 @@ CREATE TABLE `citas` (
   `Id_Mascota` int(6) NOT NULL,
   `Fecha_Cita` date NOT NULL,
   `Hora_Cita` time NOT NULL,
-  `Motivo_Cita` varchar(200) NOT NULL
+  `Motivo_Cita` varchar(200) NOT NULL,
+  `Id_EstadoCita` int(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -165,6 +166,18 @@ CREATE TABLE `detalle_venta` (
   `IVA_Venta` int(11) NOT NULL,
   `Total_Venta` int(11) NOT NULL,
   `Exento_IVA` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estadoscita`
+--
+
+CREATE TABLE `estadoscita` (
+  `Id_EstadoCita` int(6) NOT NULL,
+  `Nombre_EstadoCita` varchar(15) NOT NULL,
+  `Descripcion_EstadoCita` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -445,6 +458,7 @@ ALTER TABLE `cirugia`
 --
 ALTER TABLE `citas`
   ADD PRIMARY KEY (`Id_Cita`),
+  ADD UNIQUE KEY `Id_EstadoCita` (`Id_EstadoCita`),
   ADD KEY `Id_Cliente` (`Id_Cliente`),
   ADD KEY `Id_Mascota` (`Id_Mascota`);
 
@@ -498,6 +512,12 @@ ALTER TABLE `detalle_venta`
   ADD KEY `Id_Venta` (`Id_Venta`),
   ADD KEY `Id_Producto` (`Id_Producto`),
   ADD KEY `Id_Servicio` (`Id_Servicio`);
+
+--
+-- Indices de la tabla `estadoscita`
+--
+ALTER TABLE `estadoscita`
+  ADD PRIMARY KEY (`Id_EstadoCita`);
 
 --
 -- Indices de la tabla `fabricantes`
@@ -693,6 +713,12 @@ ALTER TABLE `detalle_venta`
   MODIFY `Id_Detalle_Venta` int(6) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT de la tabla `estadoscita`
+--
+ALTER TABLE `estadoscita`
+  MODIFY `Id_EstadoCita` int(6) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de la tabla `fabricantes`
 --
 ALTER TABLE `fabricantes`
@@ -789,7 +815,8 @@ ALTER TABLE `cirugia`
 --
 ALTER TABLE `citas`
   ADD CONSTRAINT `citas_ibfk_2` FOREIGN KEY (`Id_Mascota`) REFERENCES `mascotas` (`Id_Mascota`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `citas_ibfk_3` FOREIGN KEY (`Id_Cliente`) REFERENCES `clientes` (`ID_Cliente`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `citas_ibfk_3` FOREIGN KEY (`Id_Cliente`) REFERENCES `clientes` (`ID_Cliente`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `citas_ibfk_4` FOREIGN KEY (`Id_EstadoCita`) REFERENCES `estadoscita` (`Id_EstadoCita`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `clientes`
