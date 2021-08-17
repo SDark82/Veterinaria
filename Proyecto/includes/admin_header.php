@@ -1,6 +1,6 @@
 <header>
         <div class="logo">
-          <img src="/Veterinaria/Proyecto/statics/img/Logo1Mesa de trabajo 1.svg" alt="" />
+          <img src="/Veterinaria/Proyecto/statics/img/Logo1.svg" alt="" />
         </div>
         <div class="navbar">
           <div class="content-navbar" onclick="location.href = '/Veterinaria/Proyecto/index.php'">
