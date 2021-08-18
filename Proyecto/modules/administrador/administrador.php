@@ -29,7 +29,7 @@
       <div class="administrar">
         <div class="motivo">ADMINISTRAR</div>
         <div class="menu">
-          <div class="opcion cliente" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion cliente" onclick="location.href = '../administrador/admin_Cliente/admin_cliente.php'">
             <div class="titulo">
               <div class="tituloPrincipal">CLIENTES</div>
             </div>
@@ -38,7 +38,7 @@
             </div>
           </div>
 
-          <div class="opcion cita"onclick="location.href = 'administrador/admin_Cita/admin_Cita.php'">
+          <div class="opcion cita"onclick="location.href = '../administrador/admin_Cita/admin_Cita.php'">
             <div class="titulo">
               <div class="tituloPrincipal">CITAS</div>
             </div>
@@ -47,7 +47,7 @@
             </div>
           </div>
 
-          <div class="opcion enfermedades" onclick="location.href = 'administrador/admin_Enfermedad/admin_Enfermedad.php'">
+          <div class="opcion enfermedades" onclick="location.href = '../administrador/admin_Enfermedades/admin_Enfermedad.php'">
             <div class="titulo">
               <div class="tituloPrincipal">ENFERMEDADES</div>
             </div>
@@ -56,7 +56,7 @@
             </div>
           </div>
 
-          <div class="opcion cirugia" onclick="location.href = 'administrador/admin_Cirugias/admin_Cirugia.php'">
+          <div class="opcion cirugia" onclick="location.href = '../administrador/admin_Cirugias/admin_Cirugia.php'">
             <div class="titulo">
               <div class="tituloPrincipal">CIRUGIAS</div>
             </div>
@@ -65,7 +65,7 @@
             </div>
           </div>
 
-          <div class="opcion jaula" onclick="location.href = 'administrador/admin_Jaula/admin_Jaula.php'">
+          <div class="opcion jaula" onclick="location.href = '../administrador/admin_Jaulas/admin_Jaula.php'">
             <div class="titulo">
               <div class="tituloPrincipal">JAULAS</div>
             </div>
@@ -74,7 +74,7 @@
             </div>
           </div>
 
-          <div class="opcion medicamento" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion medicamento" onclick="location.href = '../administrador/admin_Medicamentos/admin_Medicamento.php'">
             <div class="titulo">
               <div class="tituloPrincipal">MEDICAMENTOS</div>
             </div>
@@ -83,7 +83,7 @@
             </div>
           </div>
 
-          <div class="opcion proveedores" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion proveedores" onclick="location.href = '../administrador/admin_Proveedores/admin_Proveedor.php'">
             <div class="titulo">
               <div class="tituloPrincipal">PROVEEDORES</div>
             </div>
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <div class="opcion equipo-medico" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion equipo-medico" onclick="location.href = '../administrador/admin_Equipo/admin_Equipo.php'">
             <div class="titulo">
               <div class="tituloPrincipal">EQUIPO MEDICO</div>
             </div>
@@ -101,7 +101,7 @@
             </div>
           </div>
 
-          <div class="opcion especie" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion especie" onclick="location.href = '../administrador/admin_Especie/admin_Especie.php'">
             <div class="titulo">
               <div class="tituloPrincipal">ESPECIES</div>
             </div>
@@ -110,7 +110,7 @@
             </div>
           </div>
 
-          <div class="opcion paciente" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion paciente" onclick="location.href = '../administrador/admin_Paciente/admin_Paciente.php'">
             <div class="titulo">
               <div class="tituloPrincipal">PACIENTES</div>
             </div>
@@ -119,7 +119,7 @@
             </div>
           </div>
 
-          <div class="opcion personal" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion personal" onclick="location.href = '../administrador/admin_Personal/admin_Personal.php'">
             <div class="titulo">
               <div class="tituloPrincipal">PERSONAL</div>
             </div>
@@ -128,7 +128,7 @@
             </div>
           </div>
 
-          <div class="opcion factura" onclick="location.href = 'administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion factura" onclick="location.href = '../administrador/admin_Facturas/admin_Factura.php'">
             <div class="titulo">
               <div class="tituloPrincipal">FACTURAS</div>
             </div>
@@ -137,7 +137,7 @@
             </div>
           </div>
 
-          <div class="opcion reportes" onclick="location.href ='administrador/admin_Cliente/admin_cliente.php'">
+          <div class="opcion reportes" onclick="location.href ='../administrador/admin_Reporte/admin_Reporte.php'">
             <div class="titulo">
               <div class="tituloPrincipal">REPORTES</div>
             </div>

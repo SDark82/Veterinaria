@@ -1,0 +1,662 @@
+body{
+    color: #363636;
+    position: relative;
+}
+
+.contenedor{
+    width: 70%;
+    height: 100%;
+}
+
+.motivo{
+    margin: 0;
+}
+
+.titulo-opcion{
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.atras{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 10px;
+    background-color: #f7f7f746;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 2em;
+    transition: all 0.4s;
+
+}
+
+.atras:hover{
+    background-color: #58585846;
+    color: #eeeeee;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 30px 0;
+    position: relative;
+
+}
+
+.difuminacion{
+    position: absolute;
+    width: 260px;
+    height: 100%;
+    left: 130px;
+}
+
+#editar, #eliminar{
+    filter: opacity(0.4);
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 5px;
+}
+
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    margin-right: 10px;
+}
+
+
+.boton{
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f7f7f746;
+    border-radius: 22px;
+    font-size: 15px;
+    transition: all 0.4s;
+    margin-right: 20px;
+}
+
+.boton:hover{
+    background-color: #58585846;
+    color: #eeeeee;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #f7f7f746;
+    margin-right: 20px;
+}
+
+.clientes{
+    width: 780px;
+    height: 480px;
+    border-radius: 22px;
+    background-color: #f7f7f746;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.descripcion{
+    flex: 0 0 auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.tabla-clientes{
+    flex: 1 0 80%;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.tabla{
+    display: block;
+    width: auto;
+    height: 100%;
+    border: none;
+    border-collapse: collapse;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tabla thead{
+    position: sticky;
+    font-size: 12px;
+    text-align: left;
+    top: 0;
+    z-index: 5;
+    background-color: inherit;
+    backdrop-filter: blur(15px);
+}
+
+.tabla tbody{
+    font-size: 12px;
+    z-index: -99;
+}
+
+.tabla td, .tabla th{
+    padding: 12.5px;
+}
+
+.filas{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filas:hover{
+    background-color: #58585846;
+    color: #eeeeee;
+}
+
+
+
+.total-clientes{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.buscador{
+    width: 230px;
+    height: 100%;
+    border-radius: 22px;
+    background-color: #f7f7f7d5;
+    display: flex;
+    align-items: center;
+}
+
+.icono-buscar{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-buscar img{
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+}
+
+.cajaTexto-buscar{
+    width: 80%;
+    height: 100%;
+}
+
+.cajaTexto-buscar input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0 22px 22px 0;
+    background-color: #a6c0ee00;
+    color: #363636;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.cajaTexto-buscar input::placeholder{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 10px;
+}
+
+
+.limpiar{
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 22px;
+    width: 5em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.limpiar:hover{
+    background-color: #58585846;
+    color: #eeeeee;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: row;
+}
+
+.herramientas{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.agregar{
+    margin-top: 20px;
+    width: 780px;
+    height: 480px;
+    border-radius: 22px;
+    background-color: #f7f7f746;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion-personal{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.col{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.params{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+.params-op{
+    width: 100%;
+    text-align: left;
+    left: 10px;
+    position: absolute;
+    bottom: -10px;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.values{
+    height: 40px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 10px 10px;
+    font-size: 12px;
+    position: relative;
+
+
+}
+
+.values input, .values label{
+    outline: none;
+    border-radius: 22px;
+    border: none;
+    width: 145px;
+    height: 10px;
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #f7f7f7bd;
+    padding: 10px;
+}
+
+.selection{
+    min-width: 165px;
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #f7f7f7bd;
+    outline: none;
+    border-radius: 22px;
+    border: none;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.col-imagen{
+    flex: 1 0 auto;
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.info-personal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info-mascota{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#imageFile{
+    display: none;
+}
+
+.subirArchivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.subirArchivo:hover{
+    background-color: #363636a9;
+    color: #eeeeee;
+}
+
+.line-horizontal{
+    width: 100%;
+    height: 1px;
+    background-color: #f7f7f746;
+    margin: 10px 0 10px 0;
+}
+
+.tabla-mascotas{
+    flex: 1 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    height: 12px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #58585846;
+}
+
+::-webkit-scrollbar-corner{
+    display: none;
+}
+
+
+
+.filas-mascotas:hover{
+    background-color: #363636a9;
+    cursor: pointer;
+    color: #eeeeee;
+}
+
+.personal{
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+}
+
+.mascota{
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.forma{
+    display: flex;
+}
+
+.inputs{
+    margin-right: 40px;
+}
+
+.tb-botones{
+    flex: 0 0 auto;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.opciones-mascota{
+    width: 335px;
+    height: 180px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px 0 0;
+}
+
+.boton-mascota{
+    border-radius: 22px;
+    font-size: 12px;
+    padding: 5px;
+    width: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #eeeeee;
+    background-color: #363636a9;
+    font-weight: 800;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 10px;
+    transition: all 0.4s;
+    opacity: 0.4;
+}
+
+
+
+.cliente{
+    width: 700px;
+    height: auto;
+}
+
+.texto-limpiar{
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+
+.save img{
+    width: 17px;
+    height: 17px;
+}
+
+.guardar:hover{
+    font-weight: 800;
+}
+
+.bloqueo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.bloqueo2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;}
+
+.verde:hover{
+    background-color: #6fd17b;
+    font-weight: 800;
+}
+
+.rojo:hover{
+    background-color: #d16f6f;
+    
+}
+
+.alertas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #868686b9;
+    filter: blur(50px);
+    bottom: 50px;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-vertical{
+    width: 1px;
+    height: 100%;
+    background-color: #f7f7f746;
+    margin: 10px;
+}
+
+.btn-limpiar{
+    opacity: 0.4;
+    background-color: #36363600;
+    border-radius: 22px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-limpiar:hover{
+    background-color: #36363696;
+    color: #eeeeee;
+}
+
+.tb-mascota{
+    width: 270px;
+    height: 85%;
+}
+
+.tb-mascota td, .tb-mascota thead th{
+    padding: 5px 5px 10px 5px;
+}
+
+.mascotas{
+    width: 300px;
+}
+
+.columna-uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.columna-dos{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-usuario2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.info-mascota2{
+    display: flex;
+    flex-direction: column;
+}
+
+.valorFile{
+    position: absolute;
+    width: 100px;
+    height: 12.8px;
+    bottom: -10px;
+    right: 5px;
+    overflow: hidden;
+    font-size: 9px;
+    text-align: right;
+}
+
+.mensaje{
+    width: max-content;
+    height: max-content;
+    border-radius: 22px;
+    font-family: 'Gowun Dodum', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.eliminar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.eliminar-mensaje{
+    margin: 10px;
+    font-size: 13px;
+}
+
+.eliminar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.textareas{
+    height: 98px;
+    align-items: baseline;
+}
+
+.cita{
+    margin: 0;
+}
