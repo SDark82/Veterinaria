@@ -1,4 +1,10 @@
 <?php  include("includes/header.php")?>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,600&family=Style+Script&display=swap" rel="stylesheet">
+</head>
     <main>
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Nuestros Servicios</h2>
@@ -33,21 +39,21 @@
                         <img src="statics/img/poster.png" alt="">
                         <div class="hover-galeria">
                             <img src="statics/imgimg/icono1.png" alt="">
-                            <p>ir a Anuncio</p>
+                            <p>Ir a Anuncio</p>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="statics/img/poster2.png" alt="">
                         <div class="hover-galeria">
                             <img src="statics/imgimg/icono1.png" alt="">
-                            <p>ir a Anuncio</p>
+                            <p>Ir a Anuncio</p>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="statics/img/poster3.png" alt="">
                         <div class="hover-galeria">
                             <img src="statics/imgimg/icono1.png" alt="">
-                            <p>ir a Anuncio</p>
+                            <p>Ir a Anuncio</p>
                         </div>
                     </div>
                   </div>

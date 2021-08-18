@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Safari || Pagina Principal</title>
+    <title>Safari || Paguina Principal</title>
     <link rel="shortcut icon" href="statics/img/Logo1.svg" type="image/x-icon">
     <link rel="stylesheet" href="statics/css/estilo.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
@@ -13,8 +13,7 @@
 
 <body>
     <header>
-      <img src="static/img/Logo1.svg" alt="" />
-      <img src="/Veterinaria/Proyecto/statics/img/Logo1.svg" alt="" style="width: 25%;padding-left: 10%;padding-top: 1%;" />
+      <img src="static/img/Logo1.svg" alt="" style="width: 25%;padding-left: 10%;padding-top: 1%;"/>
         <nav>
           
             <a href="index.php">Inicio </a>

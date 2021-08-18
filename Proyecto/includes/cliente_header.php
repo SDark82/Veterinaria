@@ -10,7 +10,7 @@
             <a href="">PERFIL</a>
           </div>
           <div class="content-navbar" onclick="location.href = '/Proyecto/modules/administrador/administrador.php'">
-            <a href="/Proyecto/modules/administrador/administrador.php">ADMINISTRAR</a>
+            <a href="/Proyecto/modules/administrador/administrador.php">ACERCA DE</a>
           </div>
           <div class="content-navbar" onclick="location.href = '/Proyecto/modules/login.php'">
             <a href="/Proyecto/modules/login.php">SALIR</a>

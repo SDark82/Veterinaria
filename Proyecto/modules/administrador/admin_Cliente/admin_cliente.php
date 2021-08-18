@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/Veterinaria/Proyecto/statics/css/main.css" />
-    <link rel="stylesheet" href="/Veterinaria/Proyecto/statics/css/administrador/admin_Cliente/cliente.css">
+    <link rel="stylesheet" href="../../../statics/css/main.css" />
+    <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="botones">
-                    <div class="boton verde" onclick="location.href = 'admin_agregarCliente.php'">
+                    <div class="boton verde" onclick="location.href = '../admin_Cliente/admin_agregarCliente.php'">
                         <div class="image">
                             <i class="fas fa-plus"></i>
                         </div>
@@ -161,7 +161,7 @@
                     <div class="default-btn color-rojo-hover">
                         ELIMINAR
                     </div>
-                    <div class="default-btn color-secudario-hover" onclick="cancelarEliminar()">
+                    <div class="default-btn color-secundario-hover" onclick="cancelarEliminar()">
                         CANCELAR
                     </div>
                 </div>
@@ -169,7 +169,7 @@
         </div>
     </div>
 
-    <script src="/Veterinaria/Proyecto/statics/js/administrador/admin_cliente/admin_cliente.js"></script>
+    <script src="../../../statics/js/administrador/admin_cliente/admin_cliente.js"></script>
 </body>
 
 </html>

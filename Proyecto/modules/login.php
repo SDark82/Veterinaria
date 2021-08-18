@@ -69,12 +69,12 @@
 
     <div class="login">
       <div class="imglogo">
-        <img src="../statics/img/Logo1Mesa de trabajo 1.svg" alt="" class="login-logo" />
+        <img src="../statics/img/Logo1.svg" alt="" class="login-logo" />
       </div>
       
       <div class="img-user">
         <div class="photo" id="photo">
-          <img src="../statics/img/userMesa de trabajo 1.svg" alt="" />
+          <img src="../statics/img/user.svg" alt="" />
           <img src="" alt="" id="photo-user" />
         </div>
       </div>

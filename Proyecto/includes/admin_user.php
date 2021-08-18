@@ -1,7 +1,7 @@
         <div class="perfil">
           <div class="user-perfil">
-            <div class="circulo">
-
+            <div class="circulo color-blanco-transparente">
+              <i class="fas fa-user fa-4x"></i>
             </div>
             <div class="info">
               <div class="puesto">ADMINISTRADOR</div>
@@ -37,7 +37,7 @@
           </div>
 
 
-          <div class="salir" onclick="location.href = '/Veterinaria/Proyecto/index.php'">
+          <div class="salir" onclick="location.href = '/Proyecto/modules/login.php'">
             <div class="btn-salir-texto">
               SALIR
             </div>

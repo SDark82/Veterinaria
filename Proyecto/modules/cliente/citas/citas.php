@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administra | Cita</title>
-    <link rel="stylesheet" href="../../../statics/css/main.css" />
-    <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Proyecto/statics/css/main.css" />
+    <link rel="stylesheet" href="/Proyecto/statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -18,45 +18,38 @@
 <body>
     <div class="fondo">
 
-        <?php include("../../../includes/admin_header.php") ?>
+        <?php  include("../../../includes/cliente_header.php")?>
 
         <div class="main-user">
 
-            <?php include("../../../includes/admin_user.php") ?>
+        <?php  include("../../../includes/cliente_user.php")?>
 
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">CITAS</div>
-                    <div class="atras" onclick="location.href = '../../administrador/administrador.php'">
+                    <div class="atras" onclick="location.href = '../cliente.php'">
                         ATRAS
                     </div>
                 </div>
                 <div class="botones">
-                    <div class="boton verde" onclick="location.href = '../admin_Cita/admin_agregarCita.php'">
+                    <div class="boton verde" onclick="location.href = '../citas/agendar_Cita.php'">
                         <div class="image">
                         <i class="far fa-calendar-plus"></i>
                         </div>
                         <div class="texto">
-                            AGENDAR
+                            AGENDAR CITA
                         </div>
                     </div>
                     <div class="line">
 
                     </div>
-                    <div class="boton" id="editar" onclick="location.href = 'admin_editarCliente.php'">
-                        <div class="image">
-                            <i class="fas fa-pen"></i>
-                        </div>
-                        <div class="texto">
-                            EDITAR
-                        </div>
-                    </div>
+                    
                     <div class="boton rojo" id="eliminar" onclick="accionEliminar()">
                         <div class="image">
                             <i class="fas fa-times"></i>
                         </div>
                         <div class="texto">
-                            ELIMINAR
+                            CANCELAR CITA
                         </div>
                     </div>
                     <div class="difuminacion">
@@ -87,24 +80,22 @@
                         <table id="tb-cliente" class="tabla">
                             <thead>
                                 <th>ID CITA</th>
-                                <th>ID MASCOTA</th>
-                                <th>ID CLIENTE</th>
+                                <th>MASCOTA</th>
                                 <th>FECHA CITA</th>
                                 <th>HORA</th>
-                                <th>MOTIVO</th>
+                                <th>VETERINARIO</th>
                                 <th>ESTADO</th>
-
                             </thead>
                             <tbody>
                                 <tr class="filas" onclick="filas(event)">
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
-                                    <td>BASE DE DATOS</td>
+                                    <td>C-01</td>
+                                    <td>Tommy</td>
+                                    <td>25/08/2021</td>
+                                    <td>2:00 PM</td>
+                                    <td>Dr. Suyapa Mendoza</td>
+                                    <td>Pendiente</td>
                                 </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -126,7 +117,7 @@
                     <div class="default-btn color-rojo-hover">
                         ELIMINAR
                     </div>
-                    <div class="default-btn color-secundario-hover" onclick="cancelarEliminar()">
+                    <div class="default-btn color-secudario-hover" onclick="cancelarEliminar()">
                         CANCELAR
                     </div>
                 </div>
@@ -134,7 +125,10 @@
         </div>
     </div>
 
+    <script src="/Proyecto/statics/js/cliente/cliente.js"></script>
+    <script src="/Proyecto/statis/js/main.js"></script>
     <script src="/Proyecto/statics/js/administrador/admin_cliente/admin_cliente.js"></script>
+
 </body>
 
 </html>

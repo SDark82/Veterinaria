@@ -68,7 +68,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: 'Albori';
-    background-image: url(../img/Curiosidades/SVG/Leones.svg);
+    background-image: url(../../statics/img/Curiosidades/SVG/Leones.svg);
     background-size: cover;
     background-position: right;
     background-repeat: repeat;
@@ -82,22 +82,22 @@ body{
 
 @keyframes animation {
     0%{
-        background-image: url("../img/Curiosidades/SVG/Leones.svg");
+        background-image: url("../../statics/img/Curiosidades/SVG/Leones.svg");
     }
     20%{
-        background-image: url("../img/Curiosidades/SVG/Jirafas.svg"); 
+        background-image: url("../../statics/img/Curiosidades/SVG/Jirafas.svg"); 
     }
     40%{
-        background-image: url("../img/Curiosidades/SVG/Elefantes.svg"); 
+        background-image: url("../../statics/img/Curiosidades/SVG/Elefantes.svg"); 
     }
     60%{
-        background-image: url("../img/Curiosidades/SVG/Perros.svg"); 
+        background-image: url("../../statics/img/Curiosidades/SVG/Perros.svg"); 
     }
     80%{
-        background-image: url("../img/Curiosidades/SVG/Gatos.svg"); 
+        background-image: url("../../statics/img/Curiosidades/SVG/Gatos.svg"); 
     }
     100%{
-        background-image: url("../img/Curiosidades/SVG/Leones.svg"); 
+        background-image: url("../../statics/img/Curiosidades/SVG/Leones.svg"); 
     }
 }
 
@@ -556,6 +556,10 @@ header{
     background-color: #f7f7f746;
     margin-top: 50px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #363636;
 }
 
 
@@ -583,7 +587,6 @@ header{
     border-radius: 22px;
     cursor: pointer;
     transition: all 0.5s;
-
 }
 
 .content-navbar:hover{
@@ -758,9 +761,15 @@ header{
     border-radius: 22px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     flex-direction: column;
 }
+
+.tarjeta-container:nth-child(2n){
+    height: 290px;
+   
+}
+
 
 .tarjeta-tittle{
     color: #eeeeee;
@@ -778,10 +787,12 @@ header{
     align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    max-height: 180px;
+    max-height: 230px;
+    width: 250px;
     margin-top: 20px;
     overflow-y: auto;
 }
+
 
 .btn2{
     font-size: 10px;
@@ -1096,21 +1107,92 @@ header{
     font-weight: 800;
 }
 
-.color-secudario{
-    background-color: #363636a9;
-    color: #eeeeee
-}
 
-.color-secudario:hover{
-    font-weight: 800;
-}
 
-.color-secudario-hover:hover{
+.color-secundario-hover:hover{
     background-color: #363636a9;
     color: #eeeeee
 }
 
 .color-blanco-transparente{
     background-color: #f7f7f746;
+    color: #363636a9;
 }
 
+.menu-cliente{
+    justify-content: first baseline;
+}
+
+.mascota-perfil{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+
+.mascota-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 108px;
+}
+
+.mascota-opciones{
+    padding: 5px;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: none;
+    animation: fadeIn 0.4s linear;
+    color: #363636ea;
+}
+
+.mascota-nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascota-opcion{
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.toggle{
+    display: block;
+}
+
+.mascota-imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.values textarea{
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    position: absolute;
+    max-width: 145px;
+    min-width: 145px;
+    min-height: 70px;
+    max-height: 70px;
+    top: 0;
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #f7f7f7bd;
+    padding: 10px;
+}
