@@ -95,9 +95,13 @@
                                 <th>PUESTO</th>
                                 <th>AREA</th>
                                 <th>ESTADO</th>
+                                <th>FECHA DE INGRESO</th>
+                                <th>SEXO</th>
                             </thead>
                             <tbody>
                                 <tr class="filas" onclick="filas(event)">
+                                    <td>BASE DE DATOS</td>
+                                    <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>

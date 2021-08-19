@@ -28,7 +28,7 @@
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">EDITAR CIRUGIA</div>
-                    <div class="atras" onclick="location.href = 'admin_cliente.php'">
+                    <div class="atras" onclick="location.href = '../../administrador/administrador.php'">
                         ATRAS
                     </div>
                 </div>
