@@ -28,7 +28,7 @@
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">AGREGAR CIRUGIA</div>
-                    <div class="atras" onclick="location.href = '../../administrador/administrador.php'">
+                    <div class="atras" onclick="location.href = '../admin_Cirugias/admin_Cirugia.php'">
                         ATRAS
                     </div>
                 </div>
@@ -61,11 +61,17 @@
                             </div>
                             <div class="info-personal">
                                 <div class="col">
-                                    <div class="params">NOMBRE COMPLETO
+                                    <div class="params">ID CIRUGIA
                                     </div>
-                                    <div class="params">CORREO ELECTRONICO
+                                    <div class="params">ID MASCOTA
                                     </div>
-                                    <div class="params">GENERO
+                                    <div class="params">ID PERSONAL
+                                    </div>
+                                    <div class="params">MOTIVO
+                                    </div>
+                                    <div class="params">DESCRIPCION
+                                    </div>
+                                    <div class="params">ID SERVICIO
                                     </div>
                                 </div>
                                 <div class="col inputs">
@@ -82,24 +88,43 @@
                                         </div>
                                     </div>
                                     <div class="values">
-                                        <select name="" id="" class="selection" name="genero">
-                                            <option value="" disabled selected value>SELECCIONE</option>
-                                            <option value="">MASCULINO</option>
-                                            <option value="">FEMENINO</option>
-                                        </select>
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="params">USUARIO
+                                    <div class="params">ID PRODUCTO
                                     </div>
-                                    <div class="params">CLAVE
+                                    <div class="params">ID CITA
                                     </div>
-                                    <div class="params">IMAGEN
+                                    <div class="params">FECHA DE CIRUGIA
+                                    </div>
+                                    <div class="params">HORA DE CIRUGIA
+                                    </div>
+                                    <div class="params">BAJA DE CIRUGIA
                                     </div>
                                 </div>
+                                
                                 <div class="col">
                                     <div class="values">
                                         <input type="text" spellcheck="false" name="usuario">
@@ -108,20 +133,27 @@
                                         </div>
                                     </div>
                                     <div class="values">
-                                        <input type="password" spellcheck="false" name="password">
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
                                     <div class="values">
-                                        <label for="imageFile" class="subirArchivo">
-                                            SUBIR
-                                            <input type="file" spellcheck="false" id="imageFile" name="archivo">
-                                        </label>
-                                        <div class="valorFile">
-                                        </div>
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
-                                            OPCIONAL
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
                                         </div>
                                     </div>
                                 </div>

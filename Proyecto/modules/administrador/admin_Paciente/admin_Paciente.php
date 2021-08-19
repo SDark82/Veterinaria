@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="botones">
-                    <div class="boton verde" onclick="location.href = '../admin_Pacente/admin_agregarPaciente.php'">
+                    <div class="boton verde" onclick="location.href = '../admin_PacIente/admin_agregarPaciente.php'">
                         <div class="image">
                             <i class="fas fa-plus"></i>
                         </div>

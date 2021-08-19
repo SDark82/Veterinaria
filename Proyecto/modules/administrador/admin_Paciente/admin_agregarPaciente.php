@@ -28,7 +28,7 @@
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">AGREGAR PACIENTE</div>
-                    <div class="atras" onclick="location.href = '../../administrador/administrador.php'">
+                    <div class="atras" onclick="location.href = '../admin_Paciente/admin_Paciente.php'">
                         ATRAS
                     </div>
                 </div>
@@ -53,80 +53,7 @@
                 </div>
                 <div class="agregar cliente">
                     <div class="forma">
-                        <div class="personal">
-                            <div class="informacion-personal">
-                                INFORMACION PERSONAL
-                            </div>
-                            <div class="line-horizontal">
-                            </div>
-                            <div class="info-personal">
-                                <div class="col">
-                                    <div class="params">NOMBRE COMPLETO
-                                    </div>
-                                    <div class="params">CORREO ELECTRONICO
-                                    </div>
-                                    <div class="params">GENERO
-                                    </div>
-                                </div>
-                                <div class="col inputs">
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="nombre">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <input type="email" spellcheck="false" name="correo">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <select name="" id="" class="selection" name="genero">
-                                            <option value="" disabled selected value>SELECCIONE</option>
-                                            <option value="">MASCULINO</option>
-                                            <option value="">FEMENINO</option>
-                                        </select>
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="params">USUARIO
-                                    </div>
-                                    <div class="params">CLAVE
-                                    </div>
-                                    <div class="params">IMAGEN
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="usuario">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <input type="password" spellcheck="false" name="password">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <label for="imageFile" class="subirArchivo">
-                                            SUBIR
-                                            <input type="file" spellcheck="false" id="imageFile" name="archivo">
-                                        </label>
-                                        <div class="valorFile">
-                                        </div>
-                                        <div class="params-op">
-                                            OPCIONAL
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="mascota">
                             <div class="titulo-mascota">
                                 <div class="informacion-personal mascota-tittle">
@@ -151,7 +78,7 @@
                                     <div class="columna1">
                                         <div class="col">
                                             <div class="params">NOMBRE</div>
-                                            <div class="params">FECHA DE NACIMIENTO</div>
+                                            <div class="params">FECHA</div>
                                             <div class="params">SEXO</div>
                                         </div>
                                         <div class="col inputs">
@@ -187,76 +114,34 @@
                                 <div class="info2">
                                     <div class="columna2">
                                         <div class="col">
-                                            <div class="params">ESPECIE</div>
-                                            <div class="params">RAZA</div>
+                                            <div class="params">ID MASCOTA</div>
+                                            <div class="params">ID ESPECIE</div>
+                                            <div class="params">EDAD</div>
                                         </div>
                                         <div class="col">
-                                            <div class="values">
-                                                <select name="" id="especie" class="selection entrada">
-                                                    <option value="" disabled selected value>SELECCIONE</option>
-                                                    <optgroup label="MAMIFEROS">
-                                                        <option value="">PERRO</option>
-                                                        <option value="">GATO</option>
-                                                        <option value="">HAMSTER</option>
-                                                        <option value="">CONEJO</option>
-                                                        <option value="">CABALLO</option>
-                                                        <option value="">OTRO MAMIFERO</option>
-                                                    </optgroup>
-                                                    <optgroup label="REPTILES">
-                                                        <option value="">IGUANA</option>
-                                                        <option value="">CAMALEON</option>
-                                                        <option value="">TORTUGA</option>
-                                                        <option value="">SERPIENTE</option>
-                                                        <option value="">LAGARTO</option>
-                                                        <option value="">OTRO REPTIL</option>
-                                                    </optgroup>
-                                                    <optgroup label="PECES">
-                                                        <option value="">GUPPYS</option>
-                                                        <option value="">TETRAS</option>
-                                                        <option value="">PLATYS</option>
-                                                        <option value="">BETA</option>
-                                                        <option value="">OTRO PEZ</option>
-                                                    </optgroup>
-                                                    <optgroup label="ANFIBIOS">
-                                                        <option value="">RANAS O SAPOS</option>
-                                                        <option value="">SALAMANDRAS O TRITONES</option>
-                                                        <option value="">CECILIAS O APODOS</option>
-                                                        <option value="">OTRO ANFIBIO</option>
-                                                    </optgroup>
-                                                    <optgroup label="ARACNIDOS">
-                                                        <option value="">ARAÑA</option>
-                                                        <option value="">ESCORPION</option>
-                                                        <option value="">OTRO ARACNIDO</option>
-                                                    </optgroup>
-                                                    <optgroup label="INSECTOS">
-                                                        <option value="">HORMIGA</option>
-                                                        <option value="">ABEJA</option>
-                                                        <option value="">AVISPA</option>
-                                                        <option value="">CHINCHE</option>
-                                                        <option value="">CUCARACHA</option>
-                                                        <option value="">MARIPOSA</option>
-                                                        <option value="">OTRO INSECTO</option>
-                                                    </optgroup>
-                                                    <optgroup label="OTROS">
-                                                        <option value="">CANGREJO O CAMARON</option>
-                                                        <option value="">ESTRELLA O ERIZOS</option>
-                                                        <option value="">CARACOL, ALMEJA O PULPOS</option>
-                                                        <option value="">LOMBRIZ O GUSANO MARINO</option>
-                                                        <option value="">ROTIFERO</option>
-                                                        <option value="">GUSANO PLANO</option>
-                                                        <option value="">MEDUSA O CORAL</option>
-                                                        <option value="">ESPONJA</option>
-                                                    </optgroup>
+                                        <div class="values">
+                                                <input type="text" spellcheck="false" id="name" class="entrada">
+                                                <div class="duplicado">
 
-                                                </select>
+                                                </div>
                                                 <div class="params-op">
                                                     OBLIGATORIO
                                                 </div>
                                             </div>
                                             <div class="values">
-                                                <select name="" id="raza" class="selection entrada">
-                                                    <option value="" disabled selected value>SELECCIONE</option>
-                                                </select>
+                                                <input type="text" spellcheck="false" id="name" class="entrada">
+                                                <div class="duplicado">
+
+                                                </div>
+                                                <div class="params-op">
+                                                    OBLIGATORIO
+                                                </div>
+                                            </div>
+                                            <div class="values">
+                                                <input type="text" spellcheck="false" id="name" class="entrada">
+                                                <div class="duplicado">
+
+                                                </div>
                                                 <div class="params-op">
                                                     OBLIGATORIO
                                                 </div>
@@ -264,20 +149,7 @@
                                         </div>
                                     </div>
                                     <div class="columna3">
-                                        <div class="botones-mascota">
-                                            <div class="button">
-                                                <button class="boton-mascota verde">
-                                                    AGREGAR MASCOTA
-                                                </button>
-                                                <div class="bloqueo" id="bloqueo">
-
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                       
 
 
 

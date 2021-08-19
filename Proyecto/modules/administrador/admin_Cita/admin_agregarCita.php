@@ -61,22 +61,59 @@
                             </div>
                             <div class="info-personal">
                                 <div class="col">
-                                    <div class="params">NOMBRE COMPLETO
+                                    <div class="params">ID DE CITA
                                     </div>
-                                    <div class="params">CORREO ELECTRONICO
+                                    <div class="params">ID DE MASCOTA
                                     </div>
-                                    <div class="params">GENERO
+                                    <div class="params">ID DE CLIENTE
+                                    </div>
+                                    <div class="params">FECHA DE CITA
                                     </div>
                                 </div>
                                 <div class="col inputs">
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="nombre">
+                                <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
                                     <div class="values">
-                                        <input type="email" spellcheck="false" name="correo">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col">
+                                    <div class="params">HORA
+                                    </div>
+                                    <div class="params">MOTIVO
+                                    </div>
+                                    <div class="params">ESTADO
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="values">
+                                        <input type="time" spellcheck="false" name="usuario">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
@@ -84,46 +121,16 @@
                                     <div class="values">
                                         <select name="" id="" class="selection" name="genero">
                                             <option value="" disabled selected value>SELECCIONE</option>
-                                            <option value="">MASCULINO</option>
-                                            <option value="">FEMENINO</option>
+                                            <option value="">REPROGRAMADA</option>
+                                            <option value="">CANCELADA</option>
+                                            <option value="">PENDIENTE</option>
+                                            <option value="">REALIZADA</option>
                                         </select>
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <div class="params">USUARIO
-                                    </div>
-                                    <div class="params">CLAVE
-                                    </div>
-                                    <div class="params">IMAGEN
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="usuario">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <input type="password" spellcheck="false" name="password">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                        <label for="imageFile" class="subirArchivo">
-                                            SUBIR
-                                            <input type="file" spellcheck="false" id="imageFile" name="archivo">
-                                        </label>
-                                        <div class="valorFile">
-                                        </div>
-                                        <div class="params-op">
-                                            OPCIONAL
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

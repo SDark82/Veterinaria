@@ -28,7 +28,7 @@
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">AGREGAR CLIENTES</div>
-                    <div class="atras" onclick="location.href = 'admin_cliente.php'">
+                    <div class="atras" onclick="location.href = '../admin_Cliente/admin_cliente.php'">
                         ATRAS
                     </div>
                 </div>
