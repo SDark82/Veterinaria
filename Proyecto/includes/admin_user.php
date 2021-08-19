@@ -33,17 +33,18 @@
                 <div class="btn2">REALIZAR PEDIDO</div>
                 <div class="btn2">REPORTE VENTA</div>
               </div>
-            </div>
-          </div>
-
-
-          <div class="salir" onclick="location.href = '/Proyecto/modules/login.php'">
+              <div class="salir" onclick="location.href = '/Proyecto/modules/login.php'">
             <div class="btn-salir-texto">
               SALIR
             </div>
             <i class="fas fa-sign-out-alt fa-2x"></i>
           </div>
         </div>
+            </div>
+          </div>
+
+
+          
 
 
         <div class="linea">

@@ -668,6 +668,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position:relative;
 }
 
 .linea{
@@ -864,6 +865,7 @@ header{
     align-items: center;
     justify-content: center;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .user-perfil{
