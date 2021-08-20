@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/Proyecto/statics/css/main.css" />
+    <link rel="stylesheet" href="../statics/css/main.css" />
     <link rel="stylesheet" href="/Proyecto/statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,9 +125,9 @@
         </div>
     </div>
 
-    <script src="/Proyecto/statics/js/cliente/cliente.js"></script>
-    <script src="/Proyecto/statis/js/main.js"></script>
-    <script src="/Proyecto/statics/js/administrador/admin_cliente/admin_cliente.js"></script>
+    <script src="/../../../statics/js/cliente/cliente.js"></script>
+    <script src="/../../../statis/js/main.js"></script>
+    <script src="/../../../statics/js/administrador/admin_cliente/admin_cliente.js"></script>
 
 </body>
 
