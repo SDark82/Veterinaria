@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Administrador | Clientes</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">EDITAR CLIENTES</div>
-                    <div class="atras" onclick="location.href = 'admin_cliente.php'">
+                    <div class="atras" onclick="location.href = '../admin_Cliente/admin_cliente.php'">
                         ATRAS
                     </div>
                 </div>

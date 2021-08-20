@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administra | Factura</title>
+    <title>Administrador | Facturas</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
                     <div class="line">
 
                     </div>
-                    <div class="boton" id="editar" onclick="location.href = 'admin_editarCliente.php'">
+                    <div class="boton" id="editar" onclick="location.href = '../admin_Facturas/admin_editarFactura.php'">
                         <div class="image">
                             <i class="fas fa-pen"></i>
                         </div>
@@ -98,7 +98,7 @@
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
-                                    <td><button class="default-buton">DETALLE</button></td>
+                                    <td><button class="default-buton" onclick="location.href = '../admin_Facturas/admin_detalleFactura.php'">DETALLE</button></td>
                                 </tr>
                             </tbody>
                         </table>

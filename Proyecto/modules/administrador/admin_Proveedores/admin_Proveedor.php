@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administra | Proveedor</title>
+    <title>Administrador | Proveedor</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +44,7 @@
                     <div class="line">
 
                     </div>
-                    <div class="boton" id="editar" onclick="location.href = 'admin_editarCliente.php'">
+                    <div class="boton" id="editar" onclick="location.href = '../admin_Proveedores/admin_editarProveedor.php'">
                         <div class="image">
                             <i class="fas fa-pen"></i>
                         </div>

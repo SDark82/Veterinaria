@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrador | Equipo Médico</title>
+    <title>Administrador | Detalles de Factura</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,13 +26,13 @@
 
             <div class="contenedor">
                 <div class="titulo-opcion">
-                    <div class="motivo">EQUIPO MEDICO</div>
-                    <div class="atras" onclick="location.href = '../../administrador/administrador.php'">
+                    <div class="motivo">DETALLE DE FACTURA</div>
+                    <div class="atras" onclick="location.href = '../admin_Facturas/admin_Factura.php'">
                         ATRAS
                     </div>
                 </div>
                 <div class="botones">
-                    <div class="boton verde" onclick="location.href = '../admin_Equipo/admin_agregarEquipo.php'">
+                    <div class="boton verde" onclick="location.href = '../admin_Facturas/admin_agregarFactura.php'">
                         <div class="image">
                             <i class="fas fa-plus"></i>
                         </div>
@@ -43,7 +43,7 @@
                     <div class="line">
 
                     </div>
-                    <div class="boton" id="editar" onclick="location.href = '../admin_Equipo/admin_editarEquipo.php'">
+                    <div class="boton" id="editar" onclick="location.href = '../admin_Facturas/admin_editarFactura.php'">
                         <div class="image">
                             <i class="fas fa-pen"></i>
                         </div>
@@ -86,15 +86,25 @@
                     <div class="tabla-clientes">
                         <table id="tb-cliente" class="tabla">
                             <thead>
-                                <th>ID EQUIPO MEDICO</th>
-                                <th>NOMBRE</th>
-                                <th>DESCRIPCION</th>
-                                <th>TIPO</th>
-                                <th>ESTADO</th>
-                                <th>PROVEEDOR</th>
+                                <th>ID DETALLE VENTA</th>
+                                <th>ID DE VENTA</th>
+                                <th>ID DEL PRODUCTO</th>
+                                <th>ID DEL SERVICIO</th>
+                                <th>CANTIDAD DE PRODUCTOS</th>
+                                <th>SUBTOTAL</th>
+                                <th>IVA VENTA</th>
+                                <th>TOTAL</th>
+                                <th>EXENTO IVA</th>
+                                <th>FECHA DE VENTA</th>
+                                <th></th>
                             </thead>
                             <tbody>
                                 <tr class="filas" onclick="filas(event)">
+                                    <td>BASE DE DATOS</td>
+                                    <td>BASE DE DATOS</td>
+                                    <td>BASE DE DATOS</td>
+                                    <td>BASE DE DATOS</td>
+                                    <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
                                     <td>BASE DE DATOS</td>
