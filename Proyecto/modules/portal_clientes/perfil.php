@@ -47,6 +47,9 @@
           <li><a href="perfil.php" class="active"><span class="las la-user-cog"></span>
             <span>Perfil</span></a>
           </li>
+          <li><a href="php/cerrar_sesion.php"><span class="las la-door-closed"></span>
+            <span>Cerrar Sesión</span></a>
+          </li>
         </ul>
       </div>
     </div>

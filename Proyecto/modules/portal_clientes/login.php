@@ -1,3 +1,12 @@
+<!--Codigo de verificacion de sesion iniciada-->
+<?php
+  session_start();
+
+  if(isset($_SESSION['usuario'])){
+    header("location: dashboard.php");
+  }
+?> <!--Fin del Codigo de verificacion de sesion iniciada-->
+
 <!DOCTYPE html>
 <html lang="es">
   <head>

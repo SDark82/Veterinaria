@@ -8,7 +8,7 @@
     $correo=$_POST['correo'];
     $usuario=$_POST['usuario'];
     $password=$_POST['password'];
-    //$password=hash('sha512',$password); //Contraseña encriptada - se llama igual para no modificar el resto del codigo
+    $password=hash('sha512',$password); //Se encripta contraseña - se llama igual para no modificar el resto del codigo
     $fechaRegistro=date('d-m-Y H:i:s');
     
     $query = "INSERT INTO usuarios_clientes(Nombre,CorreoElectronico,Nickname,password,Fecha_Registro) 

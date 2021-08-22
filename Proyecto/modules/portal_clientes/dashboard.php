@@ -48,9 +48,12 @@
           <li><a href="perfil.php"><span class="las la-user-cog"></span>
             <span>Perfil</span></a>
           </li>
+          <li><a href="php/cerrar_sesion.php"><span class="las la-door-closed"></span>
+            <span>Cerrar Sesión</span></a>
+          </li>
         </ul>
-      </div>
-    </div>
+      </div><!--Fin de la clase que contiene el menu principal-->
+    </div><!--Fin de la clase sidebar-->
 
     <!--Clase que contiene el resto de todo el contenido de la pagina-->
     <div class="main-content">

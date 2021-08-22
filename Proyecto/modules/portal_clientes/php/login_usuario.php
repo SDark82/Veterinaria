@@ -5,7 +5,7 @@
 
     $correo=$_POST['correo'];
     $password=$_POST['password'];
-    //$password=hash('sha512',$password); //Encriptar password
+    $password=hash('sha512',$password); //Encriptar password
 
 
     $Validar_login = mysqli_query($conexion, "SELECT * FROM usuarios_clientes WHERE CorreoElectronico='$correo'
