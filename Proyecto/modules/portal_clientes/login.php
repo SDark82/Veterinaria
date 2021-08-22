@@ -6,6 +6,7 @@
     <title>Safari | Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style_login.css">
+    <link rel="shortcut icon" href="images/favicon.png">
   </head>
   <body>
     <main>
@@ -35,12 +36,12 @@
           </form>
 
           <!--registro-->
-          <form class="formulario_register" action="">
+          <form class="formulario_register" action="php/registro_usuario.php" method="POST">
             <h2>Registrarse</h2>
-            <input type="text" placeholder="Nombre Completo">
-            <input type="text" placeholder="Correo Electrónico">
-            <input type="text" placeholder="Usuario">
-            <input type="password" placeholder="Contraseña">
+            <input type="text" placeholder="Nombre Completo" name="nombre_completo">
+            <input type="text" placeholder="Correo Electrónico" name="correo">
+            <input type="text" placeholder="Usuario" name="usuario">
+            <input type="password" placeholder="Contraseña"name="password">
             <button>Registrarse</button>
           </form>
         </div>
