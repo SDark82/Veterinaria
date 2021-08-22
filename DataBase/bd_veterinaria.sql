@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-08-2021 a las 09:02:57
+-- Tiempo de generación: 22-08-2021 a las 19:52:29
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -410,7 +410,12 @@ CREATE TABLE `usuarios_clientes` (
 --
 
 INSERT INTO `usuarios_clientes` (`Id_Usuario_Cliente`, `Nombre`, `CorreoElectronico`, `Nickname`, `password`, `Fecha_Registro`) VALUES
-(0, 'Samuel Jose Cruz Pereira', 'SamuelCruz.HN@hotmail.com', 'SDark82', '123', '22-08-2021 00:55:58');
+(1, 'Samuel Jose Cruz Pereira', 'SamuelCruz.HN@hotmail.com', 'SDark82', 'nskdjfvns', '22-08-2021 10:27:56'),
+(2, 'Cindy Zuniga', 'gabyzuniga85@gmail.com', 'gabyzuniga85', '4534ythe46', '22-08-2021 10:39:16'),
+(3, 'Bryan Cruz', 'lucario@yahoo.com', 'lucario', 'splaifhpaoeihr', '22-08-2021 10:39:45'),
+(4, 'Ian Cruz', 'iansamuelcruz@gmail.com', 'IanCruz', 'peperoni', '22-08-2021 11:46:27'),
+(5, 'Samuel Cruz', 'samuel.netq@gmail.com', 'Puky82', 'victorhugo', '22-08-2021 11:48:37'),
+(6, 'Alessandra Cruz', 'Alessandra@gmail.com', 'Ale', 'queso', '22-08-2021 11:51:15');
 
 -- --------------------------------------------------------
 
@@ -803,6 +808,12 @@ ALTER TABLE `tipo_especies`
 --
 ALTER TABLE `tipo_servicios`
   MODIFY `Id_Tipo_Servicio` int(6) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios_clientes`
+--
+ALTER TABLE `usuarios_clientes`
+  MODIFY `Id_Usuario_Cliente` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restricciones para tablas volcadas
