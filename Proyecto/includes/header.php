@@ -20,7 +20,7 @@
             <a href="index.php">Inicio </a>
             <a href="historia.php">Historia</a>
             <a href="#">Contacto</a>
-            <a href="./modules/portal_clientes/login.html">Ingresar</a>
+            <a href="./modules/portal_clientes/login.php">Ingresar</a>
         </nav>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
