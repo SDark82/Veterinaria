@@ -9,6 +9,7 @@
     $usuario=$_POST['usuario'];
     $password=$_POST['password'];
     $fechaRegistro=date('d-m-Y H:i:s');
+    
     $query = "INSERT INTO usuarios_clientes(Nombre,CorreoElectronico,Nickname,password,Fecha_Registro) 
     VALUES('$nombre_completo', '$correo', '$usuario', '$password', '$fechaRegistro')";
 
@@ -18,14 +19,14 @@
         echo '
             <script>
                 alert("Usuario almacenado exitosamente!");
-                windows.location ="../login.php";
+                window.location ="../login.php";
             </script>
         ';
     } else {
         echo '
         <script>
             alert("Usuario almacenado exitosamente!");
-            windows.location ="../login.php";
+            window.location ="../login.php";
         </script>
         ';
     }
