@@ -1,3 +1,18 @@
+<!--Codigo para validacion de inicio de sesión-->
+<?php
+  session_start();
+  if(!isset($_SESSION['usuario'])){
+    echo '
+      <script>
+        alert("Sesión no iniciada, favor ingresar datos de inicio de sesión");
+        window.location="login.php";
+      </script>
+    ';
+    session_destroy();
+    die();
+  }
+ ?> <!--Fin de validacion de inicio de sesión-->
+ 
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
