@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-08-2021 a las 07:13:49
+-- Tiempo de generación: 22-08-2021 a las 09:02:57
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -81,6 +81,7 @@ CREATE TABLE `clientes` (
   `Segundo_Nombre` varchar(15) NOT NULL,
   `Primer_Apellido` varchar(15) NOT NULL,
   `Segundo_Apellido` varchar(15) NOT NULL,
+  `Id_Usuario` int(6) NOT NULL,
   `Id_Telefonos` int(6) NOT NULL,
   `Correo_Electronico` varchar(50) NOT NULL,
   `Direccion_Casa` varchar(200) NOT NULL,
@@ -397,11 +398,19 @@ CREATE TABLE `tipo_servicios` (
 
 CREATE TABLE `usuarios_clientes` (
   `Id_Usuario_Cliente` int(6) NOT NULL,
+  `Nombre` varchar(50) NOT NULL,
+  `CorreoElectronico` varchar(50) NOT NULL,
   `Nickname` varchar(15) NOT NULL,
-  `Id_Cliente` int(6) NOT NULL,
-  `Contraseña` varchar(25) NOT NULL,
-  `Fecha_Registro` date NOT NULL
+  `password` varchar(25) NOT NULL,
+  `Fecha_Registro` varchar(50) NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `usuarios_clientes`
+--
+
+INSERT INTO `usuarios_clientes` (`Id_Usuario_Cliente`, `Nombre`, `CorreoElectronico`, `Nickname`, `password`, `Fecha_Registro`) VALUES
+(0, 'Samuel Jose Cruz Pereira', 'SamuelCruz.HN@hotmail.com', 'SDark82', '123', '22-08-2021 00:55:58');
 
 -- --------------------------------------------------------
 
@@ -469,7 +478,8 @@ ALTER TABLE `clientes`
   ADD PRIMARY KEY (`ID_Cliente`),
   ADD KEY `Id_Telefonos` (`Id_Telefonos`),
   ADD KEY `Id_Telefonos_2` (`Id_Telefonos`),
-  ADD KEY `Id_Mascota` (`Id_Mascota`);
+  ADD KEY `Id_Mascota` (`Id_Mascota`),
+  ADD KEY `Id_Usuario` (`Id_Usuario`);
 
 --
 -- Indices de la tabla `compras`
@@ -632,9 +642,7 @@ ALTER TABLE `tipo_servicios`
 -- Indices de la tabla `usuarios_clientes`
 --
 ALTER TABLE `usuarios_clientes`
-  ADD PRIMARY KEY (`Id_Usuario_Cliente`),
-  ADD KEY `Id_Cliente` (`Id_Cliente`),
-  ADD KEY `Id_Cliente_2` (`Id_Cliente`);
+  ADD PRIMARY KEY (`Id_Usuario_Cliente`);
 
 --
 -- Indices de la tabla `usuarios_empleados`
@@ -823,7 +831,8 @@ ALTER TABLE `citas`
 --
 ALTER TABLE `clientes`
   ADD CONSTRAINT `clientes_ibfk_1` FOREIGN KEY (`Id_Telefonos`) REFERENCES `telefonos_clientes` (`Id_Telefono_Cliente`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `clientes_ibfk_2` FOREIGN KEY (`Id_Mascota`) REFERENCES `mascotas` (`Id_Mascota`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `clientes_ibfk_2` FOREIGN KEY (`Id_Mascota`) REFERENCES `mascotas` (`Id_Mascota`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `clientes_ibfk_3` FOREIGN KEY (`Id_Usuario`) REFERENCES `usuarios_clientes` (`Id_Usuario_Cliente`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `compras`
@@ -900,12 +909,6 @@ ALTER TABLE `productos`
 ALTER TABLE `servicios`
   ADD CONSTRAINT `servicios_ibfk_1` FOREIGN KEY (`Id_Tipo_Servicio`) REFERENCES `tipo_servicios` (`Id_Tipo_Servicio`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `servicios_ibfk_2` FOREIGN KEY (`Id_Personal`) REFERENCES `personal` (`Id_Personal`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Filtros para la tabla `usuarios_clientes`
---
-ALTER TABLE `usuarios_clientes`
-  ADD CONSTRAINT `usuarios_clientes_ibfk_2` FOREIGN KEY (`Id_Cliente`) REFERENCES `clientes` (`ID_Cliente`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `usuarios_empleados`
