@@ -17,7 +17,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Safari | perfil</title>
+    <title>Safari || Perfil de Usuario</title>
     <link rel="stylesheet" href="./css/main_clientes.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   </head>
