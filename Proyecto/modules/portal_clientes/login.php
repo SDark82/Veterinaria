@@ -28,10 +28,10 @@
         <div class="contenedor_login_register">
 
           <!--Login-->
-          <form class="formulario_login" action="">
+          <form class="formulario_login" action="php/login_usuario.php" method="POST">
             <h2>Iniciar Sesión</h2>
-            <input type="text" placeholder="Correo Electrónico">
-            <input type="password" placeholder="Contraseña">
+            <input type="text" placeholder="Correo Electrónico" name="correo">
+            <input type="password" placeholder="Contraseña" name="password">
             <button>Entrar</button>
           </form>
 
@@ -44,11 +44,12 @@
             <input type="password" placeholder="Contraseña"name="password">
             <button>Registrarse</button>
           </form>
-        </div>
-      </div>
-    </main>
-    <script type="text/javascript" src="js/script_login.js">
 
-    </script>
+        </div> <!--Fin de contenedor_login_register-->
+      </div><!--Fin contenedor_todo-->
+    </main>
+
+    <script type="text/javascript" src="js/script_login.js"></script>
+
   </body>
 </html>
