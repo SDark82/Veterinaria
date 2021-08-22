@@ -15,22 +15,22 @@
       </div>
       <div class="sidebar-menu">
         <ul>
-          <li><a href="dashboard.html" class="active"><span class="las la-home"></span>
+          <li><a href="dashboard.php" class="active"><span class="las la-home"></span>
             <span>Dashboard</span></a>
           </li>
-          <li><a href="citas.html"><span class="las la-calendar"></span>
+          <li><a href="citas.php"><span class="las la-calendar"></span>
             <span>Citas</span></a>
           </li>
-          <li><a href="mascotas.html"><span class="las la-paw"></span>
+          <li><a href="mascotas.php"><span class="las la-paw"></span>
             <span>Mascotas</span></a>
           </li>
-          <li><a href="comunidad.html"><span class="las la-users"></span>
+          <li><a href="comunidad.php"><span class="las la-users"></span>
             <span>Comunidad</span></a>
           </li>
-          <li><a href="historial.html"><span class="las la-history"></span>
+          <li><a href="historial.php"><span class="las la-history"></span>
             <span>Historial</span></a>
           </li>
-          <li><a href="perfil.html"><span class="las la-user-cog"></span>
+          <li><a href="perfil.php"><span class="las la-user-cog"></span>
             <span>Perfil</span></a>
           </li>
         </ul>

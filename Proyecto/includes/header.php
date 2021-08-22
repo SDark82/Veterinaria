@@ -19,8 +19,8 @@
           
             <a href="index.php">Inicio </a>
             <a href="historia.php">Historia</a>
-            <a href="modules/registro.php">Registrarse</a>
-            <a href="modules/login.php">Ingresar</a>
+            <a href="#">Contacto</a>
+            <a href="./modules/portal_clientes/login.html">Ingresar</a>
         </nav>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
