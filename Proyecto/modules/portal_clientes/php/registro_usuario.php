@@ -12,6 +12,23 @@
     $query = "INSERT INTO usuarios_clientes(Nombre,CorreoElectronico,Nickname,password,Fecha_Registro) 
     VALUES('$nombre_completo', '$correo', '$usuario', '$password', '$fechaRegistro')";
 
-
     $ejecutar= mysqli_query($conexion, $query);
+
+    if ($ejecutar){
+        echo '
+            <script>
+                alert("Usuario almacenado exitosamente!");
+                windows.location ="../login.php";
+            </script>
+        ';
+    } else {
+        echo '
+        <script>
+            alert("Usuario almacenado exitosamente!");
+            windows.location ="../login.php";
+        </script>
+        ';
+    }
+
+    mysqli_close($conexion);
 ?>
