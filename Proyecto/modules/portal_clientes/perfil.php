@@ -87,7 +87,6 @@
               <p><label for="VerifiquePassword">Verificar Contraseña</label><br>
               <input type="password" name="VerifiquePassword" id="VerifyUserPass"></p><br>
               <button name="Cambiar">Cambiar Contraseña</button><br>
-              <button name="Cancelar">Cancelar</button><br>
             </div>
           </form>
         </div>
