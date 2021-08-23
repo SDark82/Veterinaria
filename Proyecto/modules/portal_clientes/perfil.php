@@ -71,6 +71,47 @@
 
       <main>
 
+        <div class="Contenedor_Datos_Usuario">
+          <h2>Datos de Usuario</h2><br>
+          <form action="">
+            <p><label for="InputUsuario">Usuario</label><br>
+            <input type="text" name="InputUsuario" id="nickname" placeholder="SDark82" readonly="readonly"></p><br>
+            <p><label for="InputCorreo">Correo Electrónico</label><br>
+            <input type="text" name="InputCorreo" id="CorreoUsuario" placeholder="SamuelCruz.hn@hotmail.com" readonly="readonly"></p><br>
+            <div class="FormCambioPass">
+              <button name="cambioPassword">¿Desea cambiar la contraseña?</button><br><br>
+              <p><label for="ActualPassword">Ingresa la Contraseña Actual</label><br>
+              <input type="password" name="ActualPassword" id="ActualPasswordUsuario"></p>
+              <p><label for="InputPassword">Contraseña Nueva</label><br>
+              <input type="password" name="InputPassword" id="PasswordUsuario"></p>
+              <p><label for="VerifiquePassword">Verificar Contraseña</label><br>
+              <input type="password" name="VerifiquePassword" id="VerifyUserPass"></p><br>
+              <button name="Cambiar">Cambiar Contraseña</button><br>
+              <button name="Cancelar">Cancelar</button><br>
+            </div>
+          </form>
+        </div>
+
+        <div class="Contenedor_Datos_Cliente">
+          <h2>Datos Generales de Cliente</h2><br>
+          <form action="">
+            <p><label for="InputUsuario">Nombre Completo</label><br>
+            <input type="text" name="Nombre" placeholder="Samuel Cruz"></p><br>
+            <p><label for="Identidad">Identidad</label><br>
+            <input type="text" name="Identidad" id="Identidad" ></p><br>
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" value="hombre"> Hombre <br>
+            <input type="radio" name="genero" value="mujer"> Mujer <br><br>
+            <p><label for="TelefonoResidencia">Telefono de Residencia</label><br>
+            <input type="text" name="TelefonoResidencia" id="TelefonoResidencia" ></p><br>
+            <p><label for="TelefonoMovil">Telefono Movil</label><br>
+            <input type="text" name="TelefonoMovil" id="TelefonoMovil" ></p><br>
+            <p><label for="Direccion">Dirección de Residencia</label><br>
+            <input type="text" name="Direccion" id="Direccion" ></p><br>
+            <button name="GuardarDatos">Guardar Datos de Cliente</button><br>
+          </form>
+        </div>
+
       </main>
 
     </div>

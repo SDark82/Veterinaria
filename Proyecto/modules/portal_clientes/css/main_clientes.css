@@ -81,6 +81,7 @@ button {
 
 header {
   display: flex;
+  background-color: rgb(255, 255, 255);
   justify-content: space-between;
   padding: 1rem 1.5rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -178,4 +179,33 @@ main {
 .caja p {
   text-align: justify;
   padding: 1.5rem;
+}
+
+.Contenedor_Datos_Usuario {
+  background: #fff;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+
+.Contenedor_Datos_Cliente {
+  margin-top: 25px;
+  background: #fff;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+
+.Contenedor_Datos_Usuario input {
+  width: 100%;
+  border-style: hidden;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: darkgray;
+}
+
+.Contenedor_Datos_Cliente p input {
+  width: 100%;
+  border-style: hidden;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: darkgray;
 }
