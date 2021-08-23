@@ -47,8 +47,8 @@
           <li><a href="perfil.php"><span class="las la-user-cog"></span>
             <span>Perfil</span></a>
           </li>
-          <li><a href="php/cerrar_sesion.php"><span class="las la-door-closed"></span>
-            <span>Cerrar Sesión</span></a>
+          <li><br><br><br>
+            <button name="cerrar" id="botonCerrar">Cerrar Sesión</button>
           </li>
         </ul>
       </div>
