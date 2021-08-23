@@ -107,22 +107,29 @@
               <span class="las la-calendar"></span>
             </div>
           </div>
-          <!--
+
+        </div><!--Fin de la clase de Cards-->
+
+          <!--Pantalla para anuncion-->
           <div class="Anuncios"> 
             <article class="caja">
-              <img src="images/Covid.jpg" alt="" width="250px" height="190px">
+              <img src="images/Covid.jpg" alt="">
+              <h2>¿Las mascotas se pueden contagiar de Covid19?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
             </article>
             <article class="caja">
-              <img src="images/vacuna1.jpg" alt="" width="250px" height="190px">
+              <img src="images/vacuna1.jpg" alt="">
+              <h2>¿Porque es importante vacunar a tus mascotas?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
             </article>
             <article class="caja">
-              <img src="images/Baño1.jpg" alt="" width="250px" height="190px">
+              <img src="images/Baño1.jpg" alt="">
+              <h2>¿Con qué frecuencia debo bañar a mi perro?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
             </article>
-          </div>-->
-
           </div>
-
-      </main> <!--Fin pantalla principal-->
+      
+        </main> <!--Fin pantalla principal-->
 
     </div>
 

@@ -76,6 +76,7 @@ button {
 
 .main-content {
   margin-left: 345px;
+  background-color: rgb(190, 61, 82);
 }
 
 header {
@@ -117,7 +118,7 @@ header label span {
 main {
   margin-top: 85px;
   padding: 2rem 1.5rem;
-  background: #f1f5f9;
+  background: #ddddf7;
   min-height: calc(100vh - 85px);
 }
 
@@ -147,5 +148,22 @@ main {
 
 /*Estilos para las cajas de anuncions en el Dashboard*/
 .Anuncios {
-  overflow: hidden;
+  display: grid;
+  padding: 20px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 5rem;
+}
+
+.caja {
+  background: rgb(248, 248, 248);
+  text-align: center;
+  border: ridge;
+}
+
+.caja img {
+  display: inline-block;
+  border: hidden;
+  width: 100%;
+  height: 250px;
 }
