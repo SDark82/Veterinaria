@@ -115,17 +115,17 @@
             <article class="caja">
               <img src="images/Covid.jpg" alt="">
               <h2>¿Las mascotas se pueden contagiar de Covid19?</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
+              <p>No, no hay datos que indiquen que animales de compañía o mascotas como gatos y perros puedan propagar el virus causante del Covid-19 en humanos. No obstante, sí que hay datos de que el virus se pueda contagiar de humano a animal y se han detectado casos positivos en felinos principalmente. <br><a href="#">Ver más...</a></p>
             </article>
             <article class="caja">
               <img src="images/vacuna1.jpg" alt="">
               <h2>¿Porque es importante vacunar a tus mascotas?</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
+              <p>Nuestra mascota puede entrar en contacto con perros y gatos no controlados que sean portadores de muchas enfermedades, recordemos que vivimos en un mundo agresivo de virus y bacterias, lleno de peligros, que aunque no se vean pueden ocasionar mucho daño. <br><a href="#">Ver más...</a></p>
             </article>
             <article class="caja">
               <img src="images/Baño1.jpg" alt="">
               <h2>¿Con qué frecuencia debo bañar a mi perro?</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti earum in sequi quibusdam assumenda dignissimos explicabo eum modi, blanditiis, esse, atque perferendis ipsum iure autem pariatur debitis cupiditate numquam inventore?</p>
+              <p>Sin duda que la higiene de nuestro peludo es importante, pero también hay que tener cuidado para no hacerlo demasiado seguido, ya que esto puede terminar siendo poco beneficioso para la salud de su piel y pelaje, causando irritaciones y otros problemas asociados. <br><a href="#">Ver más...</a> </p>
             </article>
           </div>
       

@@ -157,13 +157,25 @@ main {
 
 .caja {
   background: rgb(248, 248, 248);
-  text-align: center;
-  border: ridge;
+  border: solid;
+  border-width: 1px;
+  border-color: darkgray;
 }
 
 .caja img {
   display: inline-block;
-  border: hidden;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: darkgray;
   width: 100%;
   height: 250px;
+}
+
+.caja h2 {
+  text-align: center;
+}
+
+.caja p {
+  text-align: justify;
+  padding: 1.5rem;
 }
