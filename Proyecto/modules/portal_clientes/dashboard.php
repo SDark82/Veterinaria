@@ -48,9 +48,15 @@
           <li><a href="perfil.php"><span class="las la-user-cog"></span>
             <span>Perfil</span></a>
           </li>
-          <li><a href="php/cerrar_sesion.php"><span class="las la-door-closed"></span>
-            <span>Cerrar Sesión</span></a>
+          <li>
+            <button id="botonCerrar">Cerrar Sesión</button>
           </li>
+          
+          <!--
+          <li><a href="php/cerrar_sesion.php" class="cerra_sesion"><span class="las la-door-closed"></span>
+            <span>Cerrar Sesión</span></a>
+          </li>-->
+
         </ul>
       </div><!--Fin de la clase que contiene el menu principal-->
     </div><!--Fin de la clase sidebar-->
@@ -60,12 +66,11 @@
 
       <!--Barra de encabezado-->
       <header>
-        <h3>
+        <h2>
           <label for="">
-            <span class="las la-bars"></span>
             Dashboard
           </label>
-        </h3>
+        </h2>
         <div class="user-wrapper"> <!--Clase que presenta foto y nombre del usuario-->
           <img src="images/foto1.jpg" width="40px" height="40px" alt="">
           <div>
@@ -127,5 +132,6 @@
     </div>
 
     <script type="text/javascript" src="./js/portal_clientes.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Libreria para alertas animadas con JS-->
   </body>
 </html>

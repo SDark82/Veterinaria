@@ -59,6 +59,6 @@
     </main>
 
     <script type="text/javascript" src="js/script_login.js"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Libreria para alertas animadas con JS-->
   </body>
 </html>

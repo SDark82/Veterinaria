@@ -27,3 +27,12 @@ function login() {
   caja_trasera_register.style.opacity = "1";
   caja_trasera_login.style.opacity = "0";
 }
+
+function sweetAlert(titulo,texto,icono){
+  Swal.fire({
+    title: titulo,
+    text: text,
+    icon: icono,
+  });
+}
+
