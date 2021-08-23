@@ -30,7 +30,7 @@
       <div class="sidebar-menu">
         <ul>
           <li><a href="dashboard.php"><span class="las la-home"></span>
-            <span>Comunidad</span></a>
+            <span>Dashboard</span></a>
           </li>
           <li><a href="citas.php"><span class="las la-calendar"></span>
             <span>Citas</span></a>
@@ -56,12 +56,11 @@
 
     <div class="main-content">
       <header>
-        <h3>
+        <h2>
           <label for="">
-            <span class="las la-bars"></span>
             Comunidad
           </label>
-        </h3>
+        </h2>
         <div class="user-wrapper">
           <img src="images/foto1.jpg" width="40px" height="40px" alt="">
           <div>

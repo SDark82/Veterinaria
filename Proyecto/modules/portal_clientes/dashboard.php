@@ -52,12 +52,6 @@
           <li><br><br><br>
             <button name="cerrar" id="botonCerrar">Cerrar Sesión</button>
           </li>
-          
-          <!--
-          <li><a href="php/cerrar_sesion.php" class="cerra_sesion"><span class="las la-door-closed"></span>
-            <span>Cerrar Sesión</span></a>
-          </li>-->
-
         </ul>
       </div><!--Fin de la clase que contiene el menu principal-->
     </div><!--Fin de la clase sidebar-->
