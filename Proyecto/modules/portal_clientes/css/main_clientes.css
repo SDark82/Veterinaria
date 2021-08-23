@@ -209,3 +209,7 @@ main {
   border-width: 1px;
   border-color: darkgray;
 }
+
+.main-content button {
+  width: 300px;
+}
