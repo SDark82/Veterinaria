@@ -116,5 +116,6 @@
     </div>
 
     <script type="text/javascript" src="./js/portal_clientes.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Libreria para alertas animadas con JS-->
   </body>
 </html>
