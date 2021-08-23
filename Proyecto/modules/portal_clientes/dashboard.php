@@ -6,6 +6,7 @@
       <script>
         alert("Sesión no iniciada, favor ingresar datos de inicio de sesión");
         window.location="login.php";
+        //SweetAlert();
       </script>
     ';
     session_destroy();
@@ -49,7 +50,7 @@
             <span>Perfil</span></a>
           </li>
           <li><br><br><br>
-            <button id="botonCerrar">Cerrar Sesión</button>
+            <button name="cerrar" id="botonCerrar">Cerrar Sesión</button>
           </li>
           
           <!--

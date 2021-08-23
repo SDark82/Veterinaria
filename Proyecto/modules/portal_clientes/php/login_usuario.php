@@ -8,7 +8,7 @@
     $password=hash('sha512',$password); //Encriptar password
 
 
-    $Validar_login = mysqli_query($conexion, "SELECT * FROM usuarios_clientes WHERE CorreoElectronico='$correo'
+    $Validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE CorreoElectronico='$correo'
     and password='$password'");
 
     if (mysqli_num_rows($Validar_login) > 0 ){

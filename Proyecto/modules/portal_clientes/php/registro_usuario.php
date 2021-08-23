@@ -10,15 +10,16 @@
     $password=$_POST['password'];
     $password=hash('sha512',$password); //Se encripta contraseña - se llama igual para no modificar el resto del codigo
     $fechaRegistro=date('d-m-Y H:i:s');
+    $tipoUsuario="1";
     
-    $query = "INSERT INTO usuarios_clientes(Nombre,CorreoElectronico,Nickname,password,Fecha_Registro) 
-    VALUES('$nombre_completo', '$correo', '$usuario', '$password', '$fechaRegistro')";
-
+    $query = "INSERT INTO usuarios (Nombre,CorreoElectronico,Nickname,password,Fecha_Registro,id_tipoUsuario) 
+    VALUES('$nombre_completo', '$correo', '$usuario', '$password', '$fechaRegistro', '$tipoUsuario')";
 
     //verificar que el correo no se repitae en la base de datos
-    $verifica_correo = mysqli_query($conexion, "SELECT * FROM usuarios_clientes WHERE CorreoElectronico='$correo'");
-    $verifica_usuario = mysqli_query($conexion, "SELECT * FROM usuarios_clientes WHERE Nickname ='$usuario'");
+    $verifica_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE CorreoElectronico='$correo'");
+    $verifica_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE Nickname ='$usuario'");
 
+    
     if (mysqli_num_rows($verifica_correo) > 0 ){
         echo '
             <script>

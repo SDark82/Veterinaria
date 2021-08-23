@@ -11,10 +11,20 @@ boton_cerrar.addEventListener("click", function(){
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: 'Aceptar'
+    confirmButtonText: 'Cerrar Sesión'
   }).then((result) => {
     if (result.isConfirmed) {
-      window.moveTo()("php/cerrar_sesion.php");
+      window.location = "php/cerrar_sesion.php";
     }
   });
 });
+
+//Funciones
+function SweetAlert(){
+  Swal.fire({
+    icon: 'error',
+    title: '¡ACCESO DENEGADO!',
+    text: 'Necesita iniciar sesión primero',
+  });
+  window.location="login.php";
+}
