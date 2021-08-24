@@ -70,12 +70,36 @@
       </header>
 
       <main>
+        <!--Calendario interactivo-->
+        <h1 class="titulo">Calendario</h1>
 
+        <div class="Calendario">
+          <div class="calendar_info">
+            <div class="flecha_antes" id="mes_anterior">&#9664;</div>
+            <div class="calendar_mes" id="mes"></div>
+            <div class="calendar_año" id="year"></div>
+            <div class="flecha_siguiente" id="siguiente_mes">&#9654;</div>
+          </div>
+
+          <div class="Calendar_week">
+            <div class="dia_calendario">Lunes</div>
+            <div class="dia_calendario">Martes</div>
+            <div class="dia_calendario">Miércoles</div>
+            <div class="dia_calendario">Jueves</div>
+            <div class="dia_calendario">Viernes</div>
+            <div class="dia_calendario">Sábado</div>
+            <div class="dia_calendario">Domingo</div>
+          </div>
+
+          <div class="calendar_dates" id="dates"></div>
+
+        </div><!--Fin de calendario-->
       </main>
 
     </div>
 
     <script type="text/javascript" src="./js/portal_clientes.js"></script>
+    <script type="text/javascript" src="./js/calendario.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Libreria para alertas animadas con JS-->
   </body>
 </html>
