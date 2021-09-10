@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrador | Medicamentos</title>
+    <title>Agregar Especie</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,17 @@
 <body>
     <div class="fondo">
 
-        <?php include("../../../includes/admin_header.php") ?>
+        <?php include("../../../includes/secretaria_header.php") ?>
 
         <div class="main-user">
 
-            <?php include("../../../includes/admin_user.php") ?>
+            <?php include("../../../includes/secretaria_user.php") ?>
 
 
             <div class="contenedor">
                 <div class="titulo-opcion">
-                    <div class="motivo">AGREGAR MEDICAMENTO</div>
-                    <div class="atras" onclick="location.href = '../admin_Medicamentos/admin_Medicamento.php'">
+                    <div class="motivo">AGREGAR ESPECIE</div>
+                    <div class="atras" onclick="location.href = '../Especies/s_administrarEspecie.php'">
                         ATRAS
                     </div>
                 </div>
@@ -61,58 +61,35 @@
                             </div>
                             <div class="info-personal">
                                 <div class="col">
-                                    <div class="params">ID MEDICAMENTO
-                                    </div>
-                                    <div class="params">NOMBRE
-                                    </div>
-                                    <div class="params">DESCRIPCION
+                                    <div class="params">ID ESPECIE
                                     </div>
                                 </div>
                                 <div class="col inputs">
                                     <div class="values">
-                                        <input type="text" spellcheck="false" name="nombre">
+                                        <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
+                                    
+                                </div>
+                                <div class="col">
+                                    <div class="params">TIPO
+                                    </div>
+
+                                </div>
+                                <div class="col">
                                     <div class="values">
                                         <input type="text" spellcheck="false" name="prueba">
                                         <div class="params-op">
                                             OBLIGATORIO
                                         </div>
                                     </div>
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="prueba">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="params">PROVEEDOR
-                                    </div>
-                                    <div class="params">CADUCIDAD
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="values">
-                                        <input type="text" spellcheck="false" name="usuario">
-                                        <div class="params-op">
-                                            OBLIGATORIO
-                                        </div>
-                                    </div>
-                                    <div class="values">
-                                                <input type="date" spellcheck="false" id="date" class="entrada">
-                                                <div class="params-op">
-                                                    OBLIGATORIO
-                                                </div>
-                                            </div>
                                     
                                 </div>
                             </div>
                         </div>
                         
-
 
 
                             </div>
