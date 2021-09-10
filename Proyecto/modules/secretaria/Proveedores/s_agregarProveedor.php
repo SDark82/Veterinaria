@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrador | Medicamentos</title>
+    <title>Agregar Proveedor</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,17 @@
 <body>
     <div class="fondo">
 
-        <?php include("../../../includes/admin_header.php") ?>
+        <?php include("../../../includes/secretaria_header.php") ?>
 
         <div class="main-user">
 
-            <?php include("../../../includes/admin_user.php") ?>
+            <?php include("../../../includes/secretaria_user.php") ?>
 
 
             <div class="contenedor">
                 <div class="titulo-opcion">
-                    <div class="motivo">AGREGAR MEDICAMENTO</div>
-                    <div class="atras" onclick="location.href = '../admin_Medicamentos/admin_Medicamento.php'">
+                    <div class="motivo">AGREGAR PROVEEDOR</div>
+                    <div class="atras" onclick="location.href = '../Proveedores/s_administrarProveedor.php'">
                         ATRAS
                     </div>
                 </div>
@@ -61,11 +61,11 @@
                             </div>
                             <div class="info-personal">
                                 <div class="col">
-                                    <div class="params">ID MEDICAMENTO
+                                    <div class="params">ID PROVEEDOR
+                                    </div>
+                                    <div class="params">RTN PROVEEDOR
                                     </div>
                                     <div class="params">NOMBRE
-                                    </div>
-                                    <div class="params">DESCRIPCION
                                     </div>
                                 </div>
                                 <div class="col inputs">
@@ -89,9 +89,11 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="params">PROVEEDOR
+                                    <div class="params">DIRECCION
                                     </div>
-                                    <div class="params">CADUCIDAD
+                                    <div class="params">TELEFONO
+                                    </div>
+                                    <div class="params">ESTADO
                                     </div>
                                 </div>
                                 <div class="col">
@@ -102,12 +104,17 @@
                                         </div>
                                     </div>
                                     <div class="values">
-                                                <input type="date" spellcheck="false" id="date" class="entrada">
-                                                <div class="params-op">
-                                                    OBLIGATORIO
-                                                </div>
-                                            </div>
-                                    
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" spellcheck="false" name="prueba">
+                                        <div class="params-op">
+                                            OBLIGATORIO
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

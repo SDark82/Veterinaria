@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrador | Medicamentos</title>
+    <title>Agregar Medicamentos</title>
     <link rel="stylesheet" href="../../../statics/css/main.css" />
     <link rel="stylesheet" href="../../../statics/css/administrador/admin_Cliente/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,17 @@
 <body>
     <div class="fondo">
 
-        <?php include("../../../includes/admin_header.php") ?>
+        <?php include("../../../includes/secretaria_header.php") ?>
 
         <div class="main-user">
 
-            <?php include("../../../includes/admin_user.php") ?>
+            <?php include("../../../includes/secretaria_user.php") ?>
 
 
             <div class="contenedor">
                 <div class="titulo-opcion">
                     <div class="motivo">AGREGAR MEDICAMENTO</div>
-                    <div class="atras" onclick="location.href = '../admin_Medicamentos/admin_Medicamento.php'">
+                    <div class="atras" onclick="location.href = '../Medicamentos/s_administrarMedicamento.php'">
                         ATRAS
                     </div>
                 </div>
